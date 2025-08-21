@@ -1,5 +1,7 @@
 # Ultra-Sound-Nerve-Segmentation-using-AI
 
+Ultra-Sound-Nerve-Segmentation-using-AI – Deep learning models for ultrasound nerve image segmentation, including U-Net, DenseNet, and SK-U-Net, with preprocessing, augmentation, and performance evaluation for medical image analysis.
+
 # Abstract
 This work is aimed at the performance of six deep learning models on an image segmentation task using the dataset provided by Kaggle in the competition "Ultrasound Nerve Segmentation". The data includes 11,270 images of ultrasound in gray scale and their respective binary masks, split 70% for training and 30% for testing. Pre-processing steps included normalizing and resizing the data and several augmentation techniques to make the model robust and increase its generalization ability. Among them, DenseNet performed the best segmentation with a Dice Coefficient of 0.3067 and IoU of 0.1811, benefiting from the dense connectivity that promotes feature reuse and gradient flow. However, U-Net, while having a high validation accuracy of 0.9216, was not very good at fine-grained segmentation. MobileNet and TransCGUNet tended to overfit and, even with high overall accuracy, the precision of their segmentation was poor.
 
